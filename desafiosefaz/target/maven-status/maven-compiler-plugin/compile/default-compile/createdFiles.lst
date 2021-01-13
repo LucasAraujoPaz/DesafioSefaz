@@ -1,0 +1,11 @@
+br\com\lucaspaz\desafiosefaz\services\UsuarioService.class
+br\com\lucaspaz\desafiosefaz\controller\LoginController.class
+br\com\lucaspaz\desafiosefaz\entity\Usuario.class
+br\com\lucaspaz\desafiosefaz\repository\UsuarioRepository.class
+br\com\lucaspaz\desafiosefaz\repository\UsuarioRepositoryImpl.class
+br\com\lucaspaz\desafiosefaz\services\UsuarioServiceImpl.class
+br\com\lucaspaz\desafiosefaz\exceptions\EmailAlreadyUsedException.class
+br\com\lucaspaz\desafiosefaz\entity\Telefone.class
+br\com\lucaspaz\desafiosefaz\controller\UsuarioController.class
+br\com\lucaspaz\desafiosefaz\exceptions\UsuarioNotFoundException.class
+br\com\lucaspaz\desafiosefaz\util\EntityManagerUtil.class
