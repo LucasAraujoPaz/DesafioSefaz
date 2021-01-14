@@ -7,4 +7,3 @@ Maven com JPA
 Servidor Wildfly
 Páginas jsp
 Primeira página: index.jsp
-Página principal: logado.jsp
