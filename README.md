@@ -1,7 +1,7 @@
 # desafiosefaz
 Desafio Sefaz
 
-Plataforma Java EE;
+Plataforma Java EE (Java 8);
 Testado em banco de dados MySQL5;
 Maven com JPA;
 Servidor Wildfly;
