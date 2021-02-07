@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="br.com.lucaspaz.desafiosefaz.entity.Usuario" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,8 +9,8 @@
 		<title>Desafio Sefaz</title>
 	</head>
 <body>
-	<h1>Desafio Sefaz - Incluir</h1>
-	    <form id="form_incluir" name="form_incluir" method="post" action="usuarios">
+	<h1>Desafio Sefaz - Cadastrar</h1>
+	    <form id="form_cadastrar" name="form_cadastrar" method="post" action="cadastrar">
 	    	<table>
 			    <tr>
 			        <th>Nome*: </th>
@@ -49,15 +50,15 @@
 			<button id="button_adicionar_telefone" name="button_adicionar_telefone" type="button">Adicionar telefone</button>
 			<button id="button_remover_telefone" name="button_remover_telefone" type="button">Remover telefone</button><br>
 
-			<input id="input_incluir" type="submit" name="input_incluir" value="Incluir"/>
-			<a href="usuarios"><button id="button_cancelar" name="button_cancelar" type="button">Cancelar</button></a>
+			<input id="input_cadastrar" type="submit" name="input_cadastrar" value="Cadastrar"/>
+			<a href="login?acao=login"><button id="button_cancelar" name="button_cancelar" type="button">Cancelar</button></a>
 		</form>
 				
-		<script src="js/incluir.js"></script>
+		<script src="js/cadastrar.js"></script>
 		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 		<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 		<script src="https://github.com/igorescobar/jQuery-Mask-Plugin/blob/master/dist/jquery.mask.min.js"></script>
-		<script src="js/validacao-incluir.js"></script>
+		<script src="js/validacao-cadastrar.js"></script>
 </body>
 </html>

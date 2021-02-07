@@ -76,10 +76,11 @@ public class UsuarioServiceImpl implements UsuarioService {
 	}
 
 	@Override
-	public boolean removerUsuario(Usuario usuario) {
+	public boolean removerUsuario(int id) {
+		Usuario usuario = new Usuario();
 
 		try {
-			repository.getUsuarioById(usuario.getId());
+			usuario = repository.getUsuarioById(id);
 		} catch (NoResultException e) {
 			throw new UsuarioNotFoundException();			
 		}

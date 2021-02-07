@@ -15,6 +15,6 @@ public interface UsuarioService {
 	
 	public boolean alterarUsuario(Usuario usuario);
 	
-	public boolean removerUsuario(Usuario usuario);
+	public boolean removerUsuario(int id);
 	
 }

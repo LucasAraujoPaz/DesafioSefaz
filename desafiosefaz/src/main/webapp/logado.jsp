@@ -11,18 +11,7 @@
 	</head>
 	<body>
  		<h1 align="center" >Desafio Sefaz</h1>
-<!-- 		<button id="button_consultar" name="button_consultar">Consultar usuários</button> -->
-<!-- 		<a id="a_incluir" href="incluir.jsp"><button id="button_incluir">Incluir</button></a><p></p> -->
-<!--         <form id="form_alterar" name="form_alterar" method="post" action="alterar.jsp"> -->
-<!-- 			<input id="input_alterar" name="input_alterar" type="submit" value="Alterar"> -->
-<!-- 			<p><label for="select_usuarios">Usuários</label><br> -->
-<!-- 			<select id="select_usuarios" name="select_usuarios" size="10" required="required"> -->
-				
-<!-- 			</select></p> -->
-<!-- 		</form> -->
-<!-- 		<button id="button_remover">Remover</button> -->
-<!-- 		<a id="a_sair" href="index.jsp">Sair</a><p></p>		 -->
-		
+
 		<div class="container">
 		
 			<table class="table table-striped">

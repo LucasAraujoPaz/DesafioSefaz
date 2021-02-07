@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,7 +9,7 @@
     </head>
     <body>
         <h1>Desafio Sefaz - Login</h1>
-        <form id="form_index" name="form_index" method="post" action="usuarios"> <%--  onsubmit="return false;" --%>
+        <form id="form_index" name="form_index" method="post" action="login">
             <table>
                 <tr>
                     <th>E-mail: </th>
@@ -26,7 +25,7 @@
                     </td>
                 </tr>
                 <tr> 
-                	<td colspan="2"><a id="a_cadastro" href="incluir.jsp">Não tem cadastro? Registre-se</a></td>
+                	<td colspan="2"><a id="a_cadastro" href="cadastrar?acao=cadastrar">Não tem cadastro? Registre-se</a></td>
                 </tr>
             </table>
             <input type="hidden" id="input_login" name="input_login" value="login">

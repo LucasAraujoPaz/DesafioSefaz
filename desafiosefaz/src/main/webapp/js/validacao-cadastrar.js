@@ -13,7 +13,7 @@ $(function(){
 	
 	$('.telefone').mask(maskBehavior, options);
 
-	$("#form_cadastro").validate({
+	$("#form_cadastrar").validate({
        rules: {
 			input_nome: {
 				required: true,
